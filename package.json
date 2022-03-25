@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "build:start": "npm run build && node .",
-    "start": "ts-node ./src/index.ts",
+    "start": "npm run build && node .",
     "dev": "nodemon",
     "test": "jest"
   },
