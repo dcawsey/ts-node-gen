@@ -21,6 +21,7 @@
     "url": "https://github.com/dcawsey/ts-node-gen/issues"
   },
   "homepage": "https://github.com/dcawsey/ts-node-gen#readme",
+  "bin": "./dist/index.js",
   "devDependencies": {
     "@types/inquirer": "^8.2.0",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
@@ -35,6 +36,7 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "inquirer": "^8.2.2"
+    "inquirer": "^8.2.2",
+    "nanospinner": "^1.0.0"
   }
 }
